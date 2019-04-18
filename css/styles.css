@@ -5,6 +5,7 @@ p {
     border: none;
     padding: 15px 20px;
     font-size: 20px;
+    text-shadow: 1px 1px #000;
 }
 
 .p1 {
