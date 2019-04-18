@@ -1,0 +1,28 @@
+p {
+    height: 300px;
+    width: 33%;
+    border-radius: 10px;
+    border: none;
+    padding: 15px 20px;
+    font-size: 20px;
+}
+
+.p1 {
+    background-image: url("../images/rose.png");
+    background-repeat: repeat;
+    color: orange;
+}
+
+.p2 {
+    background-image: url("../images/dahlia.png");
+    background-repeat: no-repeat;
+    color: darkblue;
+}
+
+.p3 {
+    background-image: url("../images/dahlia-flower-isolated.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: aqua;
+    color: yellowgreen;
+}
