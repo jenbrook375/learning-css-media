@@ -1,14 +1,16 @@
+/* global styles for quotes */
 .quotes {
-    display: block;
+    display: inline-block;
     height: 300px;
-    width: 33%;
+    width: 100%;
     border-radius: 10px;
-    border: none;
+    border: .5px solid black;
     padding: 15px 20px;
     font-size: 20px;
     text-shadow: 1px 1px #000;
 }
 
+/* styles for individual paragraph elements*/
 .p1 {
     background-image: url("../images/rose.png");
     background-repeat: repeat;
@@ -27,4 +29,20 @@
     background-position: bottom;
     background-color: aqua;
     color: yellowgreen;
+}
+/*end of styles for paragraph elements */
+
+
+/* responsive styles for different screen sizes*/
+
+@media (min-width: 768) {
+    .quotes {
+    width: 50%;
+    }
+}
+
+@media (min-width: 1024) {
+    .quotes {
+        width: 33%;
+    }
 }
