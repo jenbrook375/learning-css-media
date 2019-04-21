@@ -1,4 +1,5 @@
-p {
+.quotes {
+    display: block;
     height: 300px;
     width: 33%;
     border-radius: 10px;
